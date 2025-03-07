@@ -95,6 +95,138 @@
 
 // console.log(test(1, 2, 3, 4, 5))
 
+//scope
+
+//global scope
+//storage
+// var a = 1
+// let b = 2
+// const c = 3
+
+//access
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// function test() {
+
+  //storage
+  // var d = 4
+  // let e = 5
+  // const f = 6
+
+  //access
+  // console.log(a)
+  // console.log(b)
+  // console.log(c)
+  // console.log(d)
+  // console.log(e)
+  // console.log(f)
+  
+  // if (true) {
+   //storage
+    // var g = 7
+    // let h = 8
+    // const i = 9
+
+    //access
+  //   console.log(a)
+  //   console.log(b)
+  //   console.log(c)
+  //   console.log(d)
+  //   console.log(e)
+  //   console.log(f)
+  //   console.log(g)
+  //   console.log(h)
+  //   console.log(i)
+  // }
+
+  // console.log(g)
+  // console.log(h)
+  // console.log(i)
+// }
+// test()
+// console.log(d)
+// console.log(e)
+// console.log(f)
+// console.log(g)
+// console.log(h)
+// console.log(i)
+
+//hoisting
+
+//variabes
+console.log(a)
+const a = 'sachin'
+console.log(a)
+
+console.log(b)
+var b = 40
+console.log(b)
+
+console.log(c)
+var c = true
+console.log(c)
+
+console.log(d)
+var d = null
+console.log(d)
+
+console.log(e)
+var e
+console.log(e)
+
+console.log(f)
+var f = { name: 'kohli' }
+console.log(f)
+
+console.log(g)
+var g = [1, 2, 3]
+console.log(g)
+
+console.log(h)
+// h()
+var h = function test() {
+  console.log('named')
+}
+h()
+console.log(h)
+
+console.log(i)
+var i = function () {
+  console.log('anonymous')
+}
+i()
+console.log(i)
+
+console.log(j)
+// j()
+var j = () => {
+  console.log('arrow')
+}
+j()
+console.log(j)
+
+
+//function declaration
+
+console.log(declare)
+declare()
+function declare() {
+  console.log('declare')
+}
+console.log(declare)
+declare()
+
+
+
+
+
+
+
+
+
+
  
 
 
