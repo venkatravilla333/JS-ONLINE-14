@@ -156,67 +156,138 @@
 //hoisting
 
 //variabes
-console.log(a)
-const a = 'sachin'
-console.log(a)
+// console.log(a)
+// const a = 'sachin'
+// console.log(a)
 
-console.log(b)
-var b = 40
-console.log(b)
+// console.log(b)
+// var b = 40
+// console.log(b)
 
-console.log(c)
-var c = true
-console.log(c)
+// console.log(c)
+// var c = true
+// console.log(c)
 
-console.log(d)
-var d = null
-console.log(d)
+// console.log(d)
+// var d = null
+// console.log(d)
 
-console.log(e)
-var e
-console.log(e)
+// console.log(e)
+// var e
+// console.log(e)
 
-console.log(f)
-var f = { name: 'kohli' }
-console.log(f)
+// console.log(f)
+// var f = { name: 'kohli' }
+// console.log(f)
 
-console.log(g)
-var g = [1, 2, 3]
-console.log(g)
+// console.log(g)
+// var g = [1, 2, 3]
+// console.log(g)
 
-console.log(h)
+// console.log(h)
+// // h()
+// var h = function test() {
+//   console.log('named')
+// }
 // h()
-var h = function test() {
-  console.log('named')
-}
-h()
-console.log(h)
+// console.log(h)
 
-console.log(i)
-var i = function () {
-  console.log('anonymous')
-}
-i()
-console.log(i)
+// console.log(i)
+// var i = function () {
+//   console.log('anonymous')
+// }
+// i()
+// console.log(i)
 
-console.log(j)
+// console.log(j)
+// // j()
+// var j = () => {
+//   console.log('arrow')
+// }
 // j()
-var j = () => {
-  console.log('arrow')
-}
-j()
-console.log(j)
+// console.log(j)
 
 
-//function declaration
+// //function declaration
 
-console.log(declare)
-declare()
-function declare() {
-  console.log('declare')
-}
-console.log(declare)
-declare()
+// console.log(declare)
+// declare()
+// function declare() {
+//   console.log('declare')
+// }
+// console.log(declare)
+// declare()
+
+//re-declaration
+
+// var x = 10
+// let x = 10
+// const x = 10
+// console.log(x)
+// console.log(x)
+// console.log(x)
+// console.log(x)
+// let x = 20
+// const x = 20
+// console.log(x)
+// console.log(x)
+// console.log(x)
+
+//re-assignment
+
+// var x = 10
+// let x = 10
+// const x = 10
+// console.log(x)
+
+// x = 30
+// console.log(x)
+
+//Initialization
+
+// var x
+// let x
+// const x = 10
+// console.log(x)
+
+
+//closure
+
+// function outer() {
+//   var name = 'sachin'
+//   function inner() {
+//     console.log(name)
+//   }
+//   return inner
+// }
+// var inner = outer()
+// inner()
+
+
+// var x = 1
+
+// function test() {
+//   // console.log(x)
+//    var x = 10
+//   console.log(x)
+// }
+// console.log(x)
+// test()
+
+
+// {
+//   var x = 10
+//   let x = 10
+//   console.log(x)
+// }
+
+// console.log(x)
+
+
+
+
+
+
 
 
 
