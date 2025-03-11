@@ -283,11 +283,123 @@
 
 // console.log(x)
 
+//IIFE
+
+// (function test() {
+//   var a = 10
+  
+// })()
+// console.log(a)
+
+//Function currying
+
+
+//without curry
+// function test(a, b, c) {
+//   console.log(a+b+c)
+// }
+// test(1, 2, 3)
+
+//with curry
+
+// function fun1(a) {
+//   return function fun2(b){
+//     return function fun3(c) {
+//           console.log(a+b+c)
+//         }
+//   }
+// }
+// fun1(1)(2)(3)
+
+//without curry
+
+// function calDis(price, dis) {
+//   var disAmout = price * dis
+//   console.log(disAmout)
+// }
+
+// calDis(1000, .1)
+// calDis(1000, .2)
+// calDis(1000, .3)
+// calDis(1000, .4)
+// calDis(1000, .5)
+
+//with curry
+
+// function calPrice(price) {
+//   return function calDis(dis) {
+//     var disAmout = price*dis
+//     console.log(disAmout)
+//   }
+// }
+
+// var calDis = calPrice(1000)
+// calDis(.1)
+// calDis(.2)
+// calDis(.3)
+// calDis(.4)
+// calDis(.5)
 
 
 
+//first class function
+
+// var x = function (cb) {
+//   return function inner(){}
+// }
+// x(function cb(){})
 
 
+// function hof(cb) {
+//   console.log('test')
+//   cb()
+//   function inner() {
+//     console.log('inner')
+//   }
+//   inner()
+// }
+
+// hof(function cb() {
+//   console.log('cb')
+// })
+
+
+//pure function
+
+// function pure(a,b,c) {
+//   var result = a + b + c
+//   console.log(result)
+// }
+
+// pure(1, 2, 3)
+// pure(1, 2, 3)
+// pure(1, 2, 3)
+
+//impure
+
+// function impure(a, b, c) {
+//   var d = Math.random()*10
+//   var result = a + b + c + d
+//   console.log(result)
+// }
+
+// impure(1, 2, 3)
+// impure(1, 2, 3)
+// impure(1, 2, 3)
+
+
+//function recurssion
+
+// function factorial(n) {
+//   if (n <= 0) {
+//     return 1;
+//   } else {
+//     return n * factorial(n - 1);
+//   }
+// }
+
+// let result = factorial(5);
+// console.log(result);
 
 
 
