@@ -198,6 +198,114 @@ var copiedObj = originalObj // normal copy
 // console.log(copiedObj)
 
 
+// var name = 'sachin'
+// var age = 40
+
+//ES-5
+// console.log('Hi this is ' + name + ' my age is ' + '' + age)
+
+//ES-6
+// console.log(`Hi this is ${name} my age is ${age}`)
+
+// var msg = ' Hi how are you '
+// var msg = 'Hi how are You You'
+// console.log(msg)
+
+// console.log(msg.length)
+
+//How to trim string
+
+// console.log(msg.trimStart().length)
+// console.log(msg.trimEnd().length)
+// console.log(msg.trim().length)
+
+//How to extract / copy specific string
+
+// console.log(msg.slice())
+// console.log(msg.slice(0))
+// console.log(msg.slice(4, 8))
+// console.log(msg.slice(-3))
+
+// console.log(msg.substring())
+// console.log(msg.substring(0))
+// console.log(msg.substring(4, 8))
+// console.log(msg.substring(-3))
+
+//Extracting a string character
+
+// console.log(msg.charAt(0))
+// console.log(msg.charAt(1))
+// console.log(msg.charCodeAt(0))
+// console.log(msg.charCodeAt(1))
+
+//Case convertion
+
+// console.log(msg.toUpperCase())
+// console.log(msg.toLowerCase())
+
+
+//How to replace specific string
+
+// console.log(msg.replace('you', 'me'))
+// console.log(msg.replaceAll('you', 'me'))
+
+//How to add nw string to the end of existing string
+
+// console.log(msg.concat(' sachin'))
+
+//how to pad or add new string
+
+// var msg = 'hello'
+// console.log(msg.padStart(8, 5))
+// console.log(msg.padEnd(8, 5))
+
+
+//How to convert string into array
+
+var msg = 'Hi how are you you'
+// console.log(msg)
+
+// console.log(msg.split())
+// console.log(msg.split(''))
+// console.log(msg.split(' '))
+
+
+//How to find specific string
+
+// console.log(msg.indexOf('you'))
+// console.log(msg.indexOf('me'))
+// console.log(msg.lastIndexOf('you'))
+// console.log(msg.lastIndexOf('me'))
+// console.log(msg.includes('you'))
+// console.log(msg.includes('me'))
+// console.log(msg.startsWith('Hi'))
+// console.log(msg.startsWith('bye'))
+// console.log(msg.endsWith('you'))
+// console.log(msg.endsWith('me'))
+// console.log(msg.repeat(3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

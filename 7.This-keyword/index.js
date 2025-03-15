@@ -175,14 +175,5 @@
 
 //Template string (ES-6)
 
-// var name = 'sachin'
-// var age = 40
-
-//ES-5
-// console.log('Hi this is ' + name + ' my age is ' + '' + age)
-
-//ES-6
-// console.log(`Hi this is ${name} my age is ${age}`)
-
 
 
