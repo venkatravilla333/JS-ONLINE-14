@@ -96,7 +96,7 @@
 
 //How to loop array values
 
-var arr = [1, 2, 3, 4, 5, 6]
+// var arr = [1, 2, 3, 4, 5, 6]
 
 //without using loop
 
@@ -199,6 +199,187 @@ var arr = [1, 2, 3, 4, 5, 6]
 // }, 0)
 
 // console.log(reduceRes)
+
+//How to remove dulpicate values from array
+
+// var arr = [1, 2, 3, 4, 3, 5, 3]
+
+// console.log(arr)
+
+//Set with spread operator
+
+// var uniqueArr = [... new Set(arr)]
+
+// console.log(uniqueArr)
+
+//indexOf
+
+// var arr = [1, 2, 3, 4, 3, 5, 3]
+// console.log(arr)
+// var uniqueArr = [     ]
+
+// function removeDuplicates(arr) {
+//   console.log(arr)
+//   for (var value of arr) {
+//     console.log(value)
+//     if (uniqueArr.indexOf(value) === -1) {
+//       uniqueArr.push(value)
+//     }
+//   }
+// }
+
+// removeDuplicates(arr)
+// console.log(uniqueArr)
+
+
+//How to flatten array
+
+// var arr = [1, 2, [3, 4], [5, 6, [7, 8, [9, 10]]]]
+
+// console.log(arr)
+
+//flat (ES-11)
+
+// var flattenArr = arr.flat(Infinity)
+// console.log(flattenArr)
+
+// var arr = [1, 2, [3, 4], [5, 6, [7, 8, [9, 10]]]]
+
+// console.log(arr)
+// var flattenArr = [       ]
+// function flattenFun(arr) {
+//   for (var value of arr) {
+//     console.log(value)
+//     if (Array.isArray(value)) {
+//       flattenFun(value)
+//     } else {
+//       flattenArr.push(value)
+//     }
+//   }
+// }
+// flattenFun(arr)
+// console.log(flattenArr)
+
+
+//map vs forEach
+
+
+// var arr = [1, 2, 3, 4, 5]
+
+// console.log(arr)
+
+// var mapRes = arr.map((item) => {
+//   return item *100
+// })
+
+// console.log(mapRes)
+
+// var foreachRes = arr.forEach((item) => {
+//   return item*100
+// })
+
+// console.log(foreachRes)
+
+//Sorting
+
+//String
+
+// var arr = ['sachin', 'dhoni', 'kohli']
+// var arr = [2, 6, 1, 7, 4]
+// var arr = [2, 600, 1, 17, 40]
+// var arr = [{course: 'nodejs'}, {course: 'reactjs'}, {course: 'html'}]
+
+// console.log(arr)
+
+//ASC
+
+// var asc = arr.sort()
+// console.log(asc)
+
+//DSC
+// var dsc = arr.reverse()
+// console.log(dsc)
+
+// // ASC
+// var asc = arr.sort()
+// console.log(asc)
+
+// // DSC
+// var dsc = arr.reverse()
+// console.log(dsc)
+
+// ASC
+// var asc = arr.sort((a, b) => {
+//   return a-b
+// })
+// console.log(asc)
+
+// DSC
+// var asc = arr.sort((a, b) => {
+//   return b-a
+// })
+// console.log(asc)
+
+
+// ASC & DSC
+
+// var asc = arr.sort((a, b) => {
+//   if(a.course > b.course) return -1
+//   if(a.course < b.course) return 1
+// })
+// console.log(asc)
+
+
+// for (var i = 0; i < arr.length; i++){
+//   for (var j = i + 1; j < arr.length; j++){
+//     if (arr[i].course < arr[j].course) {
+//       var temp = arr[i]
+//       arr[i] = arr[j]
+//       arr[j] = temp
+      
+//     }
+//   }
+// }
+
+// console.log(arr)
+
+
+//Array.from()
+
+// function test() {
+//   console.log(arguments)
+//   console.log(Array.isArray(arguments))
+//   var arr = Array.from(arguments)
+//   console.log(arr, Array.isArray(arr))
+// }
+// test(1, 2, 3, 4, 5)
+
+// var arr = [1, 10, 3, 4, 5]
+
+// var x = arr.at(2)
+// var x = arr.at(-2)
+// console.log(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
