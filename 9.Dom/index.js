@@ -105,37 +105,37 @@
 //ADDING
 //How to create element
 
-var para = document.createElement('p')
-console.log(para)
-para.id = 'myid'
-para.className = 'myclass'
+// var para = document.createElement('p')
+// console.log(para)
+// para.id = 'myid'
+// para.className = 'myclass'
 
-para.innerText = 'This is para'
+// para.innerText = 'This is para'
 
 // var texNode = document.createTextNode('This is para')
 // para.appendChild(texNode)
 
-var body = document.getElementById('body')
+// var body = document.getElementById('body')
 
-body.appendChild(para)
+// body.appendChild(para)
 
 
-var h5 = document.createElement('h5')
-console.log(h5)
-h5.id = 'myh5'
-h5.className = 'myh5class'
-h5.textContent = 'This is heading 5'
-body.insertBefore(h5, para)
+// var h5 = document.createElement('h5')
+// console.log(h5)
+// h5.id = 'myh5'
+// h5.className = 'myh5class'
+// h5.textContent = 'This is heading 5'
+// body.insertBefore(h5, para)
 
 //Update
 
-var h2 = document.createElement('h2')
-console.log(h2)
-h2.id = 'myh2id'
+// var h2 = document.createElement('h2')
+// console.log(h2)
+// h2.id = 'myh2id'
 
-h2.innerText = 'This is heading 2'
+// h2.innerText = 'This is heading 2'
 
-body.replaceChild(h2, h5)
+// body.replaceChild(h2, h5)
 
 //Delete
 
